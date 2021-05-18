@@ -1,2 +1,2 @@
-(()=>{"use strict";WA.onEnterZone("myZone",(()=>{WA.disablePlayerControl(),WA.openPopup("popupRectangle","This is an imporant message!",[{label:"Got it!",className:"primary",callback:e=>{WA.restorePlayerControl(),e.close()}}])}))})();
+(()=>{"use strict";WA.openPopup("popupRectangle","This is an imporant message!",[{label:"Got it!",className:"primary",callback:a=>{}}]),WA.sendChatMessage("Hello world","Mr Robot")})();
 //# sourceMappingURL=script.js.map
